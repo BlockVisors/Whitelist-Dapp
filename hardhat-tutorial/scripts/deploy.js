@@ -8,7 +8,7 @@ async function main() {
   const whitelistContract = await ethers.getContractFactory("Whitelist");
 
   // here we deploy the contract
-  const deployedWhitelistContract = await whitelistContract.deploy(15);
+  const deployedWhitelistContract = await whitelistContract.deploy(1515);
   // 15 is the Maximum number of whitelisted addresses allowed
   
   // Wait for it to finish deploying

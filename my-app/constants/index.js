@@ -2,9 +2,9 @@ export const abi = [
     {
       "inputs": [
         {
-          "internalType": "uint8",
+          "internalType": "uint256",
           "name": "_maxWhitelistedAddresses",
-          "type": "uint8"
+          "type": "uint256"
         }
       ],
       "stateMutability": "nonpayable",
@@ -22,9 +22,9 @@ export const abi = [
       "name": "maxWhitelistedAddresses",
       "outputs": [
         {
-          "internalType": "uint8",
+          "internalType": "uint256",
           "name": "",
-          "type": "uint8"
+          "type": "uint256"
         }
       ],
       "stateMutability": "view",
@@ -35,9 +35,9 @@ export const abi = [
       "name": "numAddressesWhitelisted",
       "outputs": [
         {
-          "internalType": "uint8",
+          "internalType": "uint256",
           "name": "",
-          "type": "uint8"
+          "type": "uint256"
         }
       ],
       "stateMutability": "view",
@@ -61,7 +61,7 @@ export const abi = [
       ],
       "stateMutability": "view",
       "type": "function"
-    },
-];
+    }
+  ];
 
-export const WHITELIST_CONTRACT_ADDRESS = "0x05e60c8d8506CCe1f2a1A961c6CCaC9868420805";
+export const WHITELIST_CONTRACT_ADDRESS = "0xEb664160C8056B61a753C47B520b82c540d11619";
